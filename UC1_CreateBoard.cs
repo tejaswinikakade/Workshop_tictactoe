@@ -11,7 +11,7 @@ namespace Tic_Tac_Toe
 
         public void Board()
         {
-            for (int i = 1; i < arr.Length; i++)
+            for (int i = 1; i <= 9; i++)
             {
                 Console.WriteLine(arr[i]);
             }
